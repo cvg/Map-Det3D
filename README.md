@@ -2,8 +2,8 @@
 
 # Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs
 
-<a href="#"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
-<a href='https://royyang0714.github.io/Map-Det3D'><img src='https://img.shields.io/badge/Project%20Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>
+<a href="https://arxiv.org/abs/2608.12179"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
+<a href='https://royyang0714.github.io/Map-Det3D'><img src='https://img.shields.io/badge/Project-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>
 <a href='https://huggingface.co/spaces/RoyYang0714/Map-Det3D'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
 <a href='https://huggingface.co/RoyYang0714/Map-Det3D'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 
