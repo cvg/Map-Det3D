@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.pyright]
+include = ["mapdet3d"]
+typeCheckingMode = "off"
+
+[project]
+name = "mapdet3d"
+description = "Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs"
+version = "0.0.0"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["mapdet3d*"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
+
+[project.scripts]
+mapdet3d = "mapdet3d.engine.run:entrypoint"
