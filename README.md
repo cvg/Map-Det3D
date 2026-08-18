@@ -30,7 +30,7 @@
 
 ## Getting Started
 
-Try our [HuggingFace Demo](https://huggingface.co/spaces/RoyYang0714/Map-Det3D) without installation and try your own data directly!
+Try our [HuggingFace Demo](https://huggingface.co/spaces/RoyYang0714/Map-Det3D) with your own data directly!
 
 ### Installation
 
@@ -73,7 +73,7 @@ torch.set_float32_matmul_precision("highest")
 # Init model
 model = MapDet3D.from_pretrained("RoyYang0714/Map-Det3D").to(device)
 
-# (Optional) Enable tracking
+# (Optional) Enable tracking -> the output 3D bounding boxes will be in world coordinate if enable tracking
 model.track_whole_scene = True
 model.roi2det = RoI2Det(nms=True, score_threshold=0.25, iou_threshold=0.5)
 
