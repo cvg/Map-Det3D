@@ -227,14 +227,11 @@ Enable it with `--vis` flag, and the `.rrd` file will be saved under `./work_dir
 
 If you find our work useful in your research, please consider citing our publications:
 ```bibtex
-@misc{yang2026mapdet3dmetricfeedforward3d,
+@inproceedings{yang2026mapdet3d,
       title={Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs}, 
       author={Yung-Hsu Yang and Luigi Piccinelli and Samuel Rota Bulò and Sunghwan Hong and Denis Rozumny and Johannes Schönberger and Zuria Bauer and Hermann Blum and Peter Kontschieder and Marc Pollefeys},
-      year={2026},
-      eprint={2608.12179},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2608.12179}, 
+      booktitle={ECCV},
+      year={2026}
 }
 ```
 
